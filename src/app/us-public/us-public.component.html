@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" >
+
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Nation Id</th>
+                            <th scope="col">Nation</th>
+                            <th scope="col">Year</th>
+                            <th scope="col">Population</th>
+                            <th scope="col">Slug Nation</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr *ngFor="let i of us.data">
+                            <th scope="row">{{i["ID Nation"]}}</th>
+                            <td>{{i['Nation']}}</td>
+                            <td>{{i['Year']}}</td>
+                            <td>{{i['Population']}}</td>
+                            <td>{{i['Slug Nation']}}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -5,11 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PassengerDataComponent } from './passenger-data/passenger-data.component';
+import { UsPublicComponent } from './us-public/us-public.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PassengerDataComponent
+    PassengerDataComponent,
+    UsPublicComponent
   ],
   imports: [
     BrowserModule,
