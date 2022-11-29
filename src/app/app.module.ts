@@ -9,6 +9,7 @@ import { UsPublicComponent } from './us-public/us-public.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { UserDataComponent } from './user-data/user-data.component';
+import { TodosComponent } from './todos/todos.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { UserDataComponent } from './user-data/user-data.component';
     UsPublicComponent,
     UserInfoComponent,
     ProductListComponent,
-    UserDataComponent
+    UserDataComponent,
+    TodosComponent
   ],
   imports: [
     BrowserModule,
