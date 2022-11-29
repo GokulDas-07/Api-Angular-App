@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" *ngFor="let i of passenger.data" >
+                    <div class="card mb-3"   style="max-width: 540px;" >
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="{{i.airline[0].logo}}" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-4">
+                            <div class="card-body">
+                              <h5 class="card-title">Passenger: {{i.name}}</h5>
+                              <p class="card-text">{{i.airline[0].name}}</p>
+                              <p class="card-text">{{i.airline[0].country}}</p>
+                              <p class="card-text">{{i.airline[0].head_quaters}}</p>
+                              <p class="card-text"><small class="text-muted">Slogan: {{i.airline[0].slogan}}</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
