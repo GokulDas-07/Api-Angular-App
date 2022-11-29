@@ -10,6 +10,7 @@ import { UserInfoComponent } from './user-info/user-info.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { UserDataComponent } from './user-data/user-data.component';
 import { TodosComponent } from './todos/todos.component';
+import { QuotesComponent } from './quotes/quotes.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TodosComponent } from './todos/todos.component';
     UserInfoComponent,
     ProductListComponent,
     UserDataComponent,
-    TodosComponent
+    TodosComponent,
+    QuotesComponent
   ],
   imports: [
     BrowserModule,
