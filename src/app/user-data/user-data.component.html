@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3" *ngFor="let i of data.users">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="{{i.image}}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">{{i.firstName}}</h5>
+                          <h5 class="card-title">{{i.lastName}}</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Age: {{i.age}}</li>
+                          <li class="list-group-item">Gender: {{i.gender}}</li>
+                          <li class="list-group-item">Mail: {{i.email}}</li>
+                          <li class="list-group-item">Phone: {{i.phone}}</li>
+                          <li class="list-group-item">Dob: {{i.birthDate}}</li>
+                          <li class="list-group-item">Blood Group: {{i.bloodGroup}}</li>
+                          <li class="list-group-item">Height: {{i.height}}</li>
+                          <li class="list-group-item">Weight: {{i.weight}}</li>
+                          
+                        </ul>
+                        <div class="card-body">
+                            <li class="list-group-item">Username: {{i.username}}</li>
+                            <li class="list-group-item">Password: {{i.password}}</li>
+                        </div>
+                      </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
