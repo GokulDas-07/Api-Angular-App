@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PassengerDataComponent } from './passenger-data/passenger-data.component';
 import { UsPublicComponent } from './us-public/us-public.component';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PassengerDataComponent,
-    UsPublicComponent
+    UsPublicComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
